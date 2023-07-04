@@ -1,0 +1,20 @@
+<form class="add-product-form">
+    <h4>Add New Product</h4>
+    <div class="input-group">
+        <label for="name" class="input-field-label">Product Name</label>
+        <input (ngModel)="product.name" type="text" id="name" name="name" class="text-input-field">
+    </div>
+    <div class="input-group">
+        <label for="description">Description</label>
+        <input (ngModel)="product.description" type="text" name="description" id="description" class="text-input-field">
+    </div>
+    <div class="input-group">
+        <label for="price">Price</label>
+        <input type="text" (ngModel)="product.price" name="price" id="price" class="number-input-field">
+    </div>
+    <div class="input-group">
+        <label for="quantity">Quantity</label>
+        <input type="text" (ngModel)="product.quantity" id="quantity" name="quantity" class="text-input-field">
+    </div>
+    <app-button text="Add" (onClick)="handleAddProduct()"></app-button>
+</form>

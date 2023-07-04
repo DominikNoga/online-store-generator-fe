@@ -4,15 +4,24 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { FooterComponent } from './components/footer/footer.component';
+
+/* Page Components */
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import { RegisterComponent } from './pages/register/register.component';
-import { LoginComponent } from './pages/login/login.component';
-import { HeaderComponent } from './components/header/header.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
-import { WorkerDashboardComponent } from './components/worker-dashboard/worker-dashboard.component';
 import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+
+/* Basic UI Components */
+import { FooterComponent } from './components/ui-components/footer/footer.component';
+import { HeaderComponent } from './components/ui-components/header/header.component';
+
+/* Dashboard Components */
+import { DashboardComponent } from './components/dashboard-components/dashboard/dashboard.component';
+import { AdminDashboardComponent } from './components/dashboard-components/admin-dashboard/admin-dashboard.component';
+import { WorkerDashboardComponent } from './components/dashboard-components/worker-dashboard/worker-dashboard.component';
+import { DashboardProductsListComponent } from './components/dashboard-components/dashboard-products-list/dashboard-products-list.component';
+import { AddProductFormComponent } from './components/dashboard-components/add-product-form/add-product-form.component';
+import { ButtonComponent } from './components/ui-components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +34,10 @@ import { HomeComponent } from './pages/home/home.component';
     DashboardComponent,
     AdminDashboardComponent,
     WorkerDashboardComponent,
-    HomeComponent
+    HomeComponent,
+    DashboardProductsListComponent,
+    AddProductFormComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

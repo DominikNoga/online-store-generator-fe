@@ -6,5 +6,79 @@
             "email": "john.doe@gmail.com",
             "password": "haslo"
         }
-    ]
+    ],
+    "products": [
+        {
+          "id": 1,
+          "price": 100,
+          "name": "Spalding tf-1000 basketball",
+          "description": "Spalding tf-1000 basketball. Perfect for indoor playing",
+          "quantity": 300
+        },
+        {
+          "id": 2,
+          "price": 49.99,
+          "name": "Nike Mercurial Superfly Soccer Cleats",
+          "description": "Nike Mercurial Superfly Soccer Cleats. Designed for speed and control on the field.",
+          "quantity": 150
+        },
+        {
+          "id": 3,
+          "price": 29.99,
+          "name": "Wilson Pro Staff Tennis Racket",
+          "description": "Wilson Pro Staff Tennis Racket. Ideal for advanced players seeking precision and power.",
+          "quantity": 50
+        },
+        {
+          "id": 4,
+          "price": 199.99,
+          "name": "Giro Synthe MIPS Cycling Helmet",
+          "description": "Giro Synthe MIPS Cycling Helmet. Lightweight and aerodynamic for optimal performance.",
+          "quantity": 100
+        },
+        {
+          "id": 5,
+          "price": 79.99,
+          "name": "Adidas Predator 20.3 Football Boots",
+          "description": "Adidas Predator 20.3 Football Boots. Enhance your control and accuracy on the pitch.",
+          "quantity": 200
+        },
+        {
+          "id": 6,
+          "price": 39.99,
+          "name": "Under Armour HeatGear Compression Shirt",
+          "description": "Under Armour HeatGear Compression Shirt. Keeps you cool and dry during intense workouts.",
+          "quantity": 75
+        },
+        {
+          "id": 7,
+          "price": 69.99,
+          "name": "Easton S450 Baseball Bat",
+          "description": "Easton S450 Baseball Bat. Crafted for power hitters looking to dominate the game.",
+          "quantity": 120
+        },
+        {
+          "id": 8,
+          "price": 149.99,
+          "name": "Bauer Vapor X2.9 Ice Hockey Skates",
+          "description": "Bauer Vapor X2.9 Ice Hockey Skates. Engineered for speed and agility on the ice.",
+          "quantity": 90
+        },
+        {
+          "id": 9,
+          "price": 24.99,
+          "name": "Speedo Vanquisher 2.0 Swim Goggles",
+          "description": "Speedo Vanquisher 2.0 Swim Goggles. Provides superior vision and comfort in the water.",
+          "quantity": 250
+        },
+        {
+          "id": 10,
+          "price": 89.99,
+          "name": "Yonex Nanoray 10F Badminton Racquet",
+          "description": "Yonex Nanoray 10F Badminton Racquet. Delivers quick handling and explosive power.",
+          "quantity": 80
+        }
+      ]
+      
+      
 }
