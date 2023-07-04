@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "online-store-generator-fe": {
+    "online-store-fe": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/online-store-generator-fe",
+            "outputPath": "dist/online-store-fe",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "online-store-generator-fe:build:production"
+              "browserTarget": "online-store-fe:build:production"
             },
             "development": {
-              "browserTarget": "online-store-generator-fe:build:development"
+              "browserTarget": "online-store-fe:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "online-store-generator-fe:build"
+            "browserTarget": "online-store-fe:build"
           }
         },
         "test": {

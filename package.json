@@ -1,5 +1,5 @@
 {
-  "name": "online-store-generator-fe",
+  "name": "online-store-fe",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
