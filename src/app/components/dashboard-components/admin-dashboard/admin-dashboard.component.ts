@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import Product from 'src/app/interfaces/product.interface';
 
 @Component({
   selector: 'app-admin-dashboard',
@@ -12,4 +13,7 @@ export class AdminDashboardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  addProduct(product: Product){
+
+  }
 }

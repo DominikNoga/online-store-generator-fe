@@ -20,8 +20,9 @@ import { DashboardComponent } from './components/dashboard-components/dashboard/
 import { AdminDashboardComponent } from './components/dashboard-components/admin-dashboard/admin-dashboard.component';
 import { WorkerDashboardComponent } from './components/dashboard-components/worker-dashboard/worker-dashboard.component';
 import { DashboardProductsListComponent } from './components/dashboard-components/dashboard-products-list/dashboard-products-list.component';
-import { AddProductFormComponent } from './components/dashboard-components/add-product-form/add-product-form.component';
 import { ButtonComponent } from './components/ui-components/button/button.component';
+import { AddProductFormComponent } from './components/dashboard-components/add-product-form/add-product-form.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -36,8 +37,9 @@ import { ButtonComponent } from './components/ui-components/button/button.compon
     WorkerDashboardComponent,
     HomeComponent,
     DashboardProductsListComponent,
+    ButtonComponent,
     AddProductFormComponent,
-    ButtonComponent
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

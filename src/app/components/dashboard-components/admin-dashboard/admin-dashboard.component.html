@@ -1,8 +1,6 @@
 <main>
     <section class="add-new-product">
-        <app-add-product-form>
-
-        </app-add-product-form>
+        <app-add-product-form (onAddProduct)="addProduct($event)"></app-add-product-form>
     </section>
     
     <section class="store-products">
